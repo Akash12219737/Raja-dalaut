@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajalaut Bunaken – Dive & Tour Adventure in North Sulawesi, Indonesia</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Rajalaut Bunaken offers world-class diving, snorkeling, and island tour packages at Bunaken National Marine Park, North Sulawesi. Book your underwater paradise adventure today." />
+  <meta name="keywords" content="Bunaken diving, Bunaken snorkeling, Bunaken National Park tour, North Sulawesi travel, Indonesia dive resort, Rajalaut Bunaken, Bunaken liveaboard, underwater adventure Bunaken" />
+  <meta name="author" content="Rajalaut Bunaken" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.rajalaut-bunaken.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.rajalaut-bunaken.com/" />
+  <meta property="og:title" content="Rajalaut Bunaken – Dive & Tour Adventure in Indonesia" />
+  <meta property="og:description" content="Explore Bunaken's crystal-clear waters with expert guides. Premium dive & tour packages in North Sulawesi's UNESCO-recognized marine paradise." />
+  <meta property="og:image" content="https://www.rajalaut-bunaken.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rajalaut Bunaken – Dive & Tour Adventure" />
+  <meta name="twitter:description" content="World-class diving & snorkeling tours at Bunaken National Marine Park, Indonesia." />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristInformationCenter",
+    "name": "Rajalaut Bunaken",
+    "description": "Premium diving and island tour packages at Bunaken National Marine Park, North Sulawesi, Indonesia.",
+    "url": "https://www.rajalaut-bunaken.com",
+    "telephone": "+62-812-3456-7890",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Bunaken Raya No. 1",
+      "addressLocality": "Bunaken Island",
+      "addressRegion": "North Sulawesi",
+      "addressCountry": "ID"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "1.6333",
+      "longitude": "124.7500"
+    },
+    "openingHours": "Mo-Su 07:00-20:00",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --ocean-deep:   #020e1a;
+      --ocean-mid:    #04243d;
+      --ocean-teal:   #0a7c8a;
+      --ocean-bright: #11c5cc;
+      --coral:        #ff6b4a;
+      --coral-light:  #ff9475;
+      --sand:         #f5ead8;
+      --white:        #ffffff;
+      --text-muted:   #8ba3b5;
+      --gold:         #c9a84c;
+      --font-display: 'Playfair Display', serif;
+      --font-body:    'DM Sans', sans-serif;
+      --font-italic:  'Cormorant Garamond', serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--ocean-deep);
+      color: var(--sand);
+      font-family: var(--font-body);
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--ocean-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--ocean-teal); border-radius: 3px; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.4rem 5%;
+      transition: background 0.4s, backdrop-filter 0.4s, padding 0.3s;
+    }
+    nav.scrolled {
+      background: rgba(2, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      padding: 1rem 5%;
+      border-bottom: 1px solid rgba(11, 197, 204, 0.15);
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+    .nav-logo-icon {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, var(--ocean-teal), var(--ocean-bright));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .nav-logo-text {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.1;
+    }
+    .nav-logo-sub {
+      font-size: 0.6rem;
+      color: var(--ocean-bright);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: block;
+    }
+    .nav-links {
+      display: flex; gap: 2.5rem; list-style: none;
+    }
+    .nav-links a {
+      color: rgba(245,234,216,0.8);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      transition: color 0.2s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute; bottom: -4px; left: 0; right: 0;
+      height: 1px; background: var(--ocean-bright);
+      transform: scaleX(0); transition: transform 0.25s;
+    }
+    .nav-links a:hover { color: var(--ocean-bright); }
+    .nav-links a:hover::after { transform: scaleX(1); }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--coral), var(--coral-light));
+      color: var(--white) !important;
+      padding: 0.65rem 1.5rem;
+      border-radius: 30px;
+      font-weight: 500 !important;
+      letter-spacing: 0.5px !important;
+      text-transform: none !important;
+      box-shadow: 0 4px 20px rgba(255,107,74,0.4);
+      transition: transform 0.2s, box-shadow 0.2s !important;
+    }
+    .nav-cta::after { display: none !important; }
+    .nav-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(255,107,74,0.5) !important; }
+
+    /* ── HAMBURGER (mobile) ── */
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; }
+    .hamburger span { display: block; width: 25px; height: 2px; background: var(--white); border-radius: 2px; transition: 0.3s; }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 80%, rgba(10,124,138,0.35) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 80% at 20% 30%, rgba(4,36,61,0.8) 0%, transparent 70%),
+        linear-gradient(180deg, rgba(2,14,26,0.3) 0%, rgba(2,14,26,0.7) 60%, var(--ocean-deep) 100%),
+        url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1800&auto=format&fit=crop&q=80') center/cover no-repeat;
+    }
+    .hero-bubbles {
+      position: absolute; inset: 0; pointer-events: none;
+    }
+    .bubble {
+      position: absolute; border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, rgba(17,197,204,0.3), rgba(17,197,204,0.05));
+      border: 1px solid rgba(17,197,204,0.2);
+      animation: rise linear infinite;
+    }
+    @keyframes rise {
+      0%   { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      10%  { opacity: 1; }
+      90%  { opacity: 0.6; }
+      100% { transform: translateY(-20vh) scale(1.2); opacity: 0; }
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      text-align: center;
+      max-width: 820px;
+      padding: 0 2rem;
+      animation: fadeUp 1s ease both;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-eyebrow {
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--ocean-bright);
+      margin-bottom: 1.2rem;
+      animation: fadeUp 1s 0.2s ease both;
+    }
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 8vw, 6.5rem);
+      font-weight: 900;
+      line-height: 1.0;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+      animation: fadeUp 1s 0.3s ease both;
+    }
+    .hero-title span {
+      display: block;
+      color: var(--ocean-bright);
+      font-style: italic;
+      font-weight: 400;
+    }
+    .hero-sub {
+      font-family: var(--font-italic);
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      color: rgba(245,234,216,0.7);
+      margin: 1.5rem 0 2.5rem;
+      animation: fadeUp 1s 0.4s ease both;
+    }
+    .hero-actions {
+      display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;
+      animation: fadeUp 1s 0.5s ease both;
+    }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--coral), #ff8c6a);
+      color: var(--white);
+      text-decoration: none;
+      padding: 1rem 2.2rem;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      box-shadow: 0 6px 30px rgba(255,107,74,0.45);
+      transition: all 0.3s;
+      border: none; cursor: pointer;
+    }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(255,107,74,0.55); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent;
+      color: var(--white);
+      text-decoration: none;
+      padding: 1rem 2.2rem;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      border: 1px solid rgba(17,197,204,0.5);
+      transition: all 0.3s;
+    }
+    .btn-ghost:hover { background: rgba(17,197,204,0.1); border-color: var(--ocean-bright); }
+
+    .hero-stats {
+      position: absolute; bottom: 3rem; left: 0; right: 0;
+      display: flex; justify-content: center; gap: 3rem;
+      z-index: 2;
+      animation: fadeUp 1s 0.7s ease both;
+    }
+    .stat-item { text-align: center; }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--ocean-bright);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── SECTION SHARED ── */
+    section { padding: 7rem 5%; }
+    .section-tag {
+      font-size: 0.7rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--ocean-bright);
+      margin-bottom: 0.8rem;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 1.2rem;
+    }
+    .section-title em {
+      font-style: italic;
+      color: var(--ocean-bright);
+      font-weight: 400;
+    }
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.8;
+      max-width: 550px;
+    }
+
+    /* ── ABOUT ── */
+    #about {
+      background: linear-gradient(135deg, var(--ocean-mid) 0%, var(--ocean-deep) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    #about::before {
+      content: '';
+      position: absolute; top: -200px; right: -200px;
+      width: 600px; height: 600px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(10,124,138,0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .about-images {
+      position: relative; height: 520px;
+    }
+    .about-img {
+      position: absolute;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+    }
+    .about-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .about-img-1 { width: 68%; height: 75%; top: 0; left: 0; }
+    .about-img-2 { width: 55%; height: 55%; bottom: 0; right: 0; border: 4px solid var(--ocean-deep); }
+    .about-badge {
+      position: absolute; bottom: 80px; left: 48%;
+      background: linear-gradient(135deg, var(--ocean-teal), var(--ocean-bright));
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+      text-align: center;
+      z-index: 2;
+      box-shadow: 0 10px 40px rgba(10,124,138,0.5);
+    }
+    .about-badge-num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1;
+    }
+    .about-badge-txt {
+      font-size: 0.65rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.8);
+    }
+    .about-features {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 1.2rem; margin-top: 2.5rem;
+    }
+    .about-feat {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(17,197,204,0.12);
+      border-radius: 12px;
+      padding: 1.2rem;
+      transition: border-color 0.3s, background 0.3s;
+    }
+    .about-feat:hover {
+      border-color: rgba(17,197,204,0.35);
+      background: rgba(17,197,204,0.07);
+    }
+    .feat-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .feat-title { font-weight: 500; font-size: 0.88rem; color: var(--white); margin-bottom: 0.3rem; }
+    .feat-desc { font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; }
+
+    /* ── PACKAGES ── */
+    #packages {
+      background: var(--ocean-deep);
+      position: relative;
+    }
+    .packages-header {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      max-width: 1200px; margin: 0 auto 3.5rem;
+      flex-wrap: wrap; gap: 2rem;
+    }
+    .packages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .pkg-card {
+      background: linear-gradient(145deg, rgba(4,36,61,0.8), rgba(2,14,26,0.9));
+      border: 1px solid rgba(17,197,204,0.12);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.35s, border-color 0.35s, box-shadow 0.35s;
+      position: relative;
+    }
+    .pkg-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(17,197,204,0.4);
+      box-shadow: 0 30px 70px rgba(0,0,0,0.4), 0 0 0 1px rgba(17,197,204,0.1);
+    }
+    .pkg-card.featured {
+      border-color: var(--coral);
+      box-shadow: 0 10px 50px rgba(255,107,74,0.2);
+    }
+    .pkg-card.featured:hover { box-shadow: 0 30px 80px rgba(255,107,74,0.3); }
+    .pkg-badge {
+      position: absolute; top: 1rem; right: 1rem;
+      background: var(--coral);
+      color: var(--white);
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .pkg-img {
+      height: 220px; overflow: hidden;
+    }
+    .pkg-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.5s;
+    }
+    .pkg-card:hover .pkg-img img { transform: scale(1.08); }
+    .pkg-body { padding: 1.8rem; }
+    .pkg-category {
+      font-size: 0.65rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--ocean-bright);
+      margin-bottom: 0.6rem;
+    }
+    .pkg-name {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.7rem;
+      line-height: 1.2;
+    }
+    .pkg-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 1.4rem;
+    }
+    .pkg-highlights {
+      list-style: none;
+      margin-bottom: 1.8rem;
+      display: flex; flex-direction: column; gap: 0.5rem;
+    }
+    .pkg-highlights li {
+      font-size: 0.82rem;
+      color: rgba(245,234,216,0.75);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .pkg-highlights li::before {
+      content: '✦';
+      color: var(--ocean-bright);
+      font-size: 0.6rem;
+      flex-shrink: 0;
+    }
+    .pkg-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 1.4rem;
+    }
+    .pkg-price-from { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+    .pkg-price {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+    .pkg-price sup { font-size: 1rem; vertical-align: super; }
+    .pkg-price span { font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-body); font-weight: 300; }
+    .btn-book {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: linear-gradient(135deg, var(--ocean-teal), var(--ocean-bright));
+      color: var(--white);
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      transition: all 0.3s;
+      border: none; cursor: pointer;
+    }
+    .btn-book:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(17,197,204,0.4); }
+    .pkg-card.featured .btn-book {
+      background: linear-gradient(135deg, var(--coral), var(--coral-light));
+      box-shadow: 0 6px 20px rgba(255,107,74,0.3);
+    }
+    .pkg-card.featured .btn-book:hover { box-shadow: 0 10px 30px rgba(255,107,74,0.5); }
+
+    /* ── WHY US ── */
+    #why {
+      background: linear-gradient(135deg, rgba(10,124,138,0.15) 0%, rgba(2,14,26,0.95) 50%, rgba(4,36,61,0.3) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .why-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1.4fr;
+      gap: 5rem; align-items: center;
+    }
+    .why-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .why-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(17,197,204,0.1);
+      border-radius: 16px;
+      padding: 1.8rem 1.5rem;
+      transition: all 0.3s;
+    }
+    .why-card:hover {
+      background: rgba(17,197,204,0.08);
+      border-color: rgba(17,197,204,0.3);
+      transform: translateY(-4px);
+    }
+    .why-icon {
+      width: 48px; height: 48px;
+      background: linear-gradient(135deg, rgba(10,124,138,0.4), rgba(17,197,204,0.2));
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    .why-title { font-size: 1rem; font-weight: 500; color: var(--white); margin-bottom: 0.5rem; }
+    .why-text { font-size: 0.83rem; color: var(--text-muted); line-height: 1.65; }
+
+    /* ── GALLERY ── */
+    #gallery {
+      background: var(--ocean-deep);
+      padding-bottom: 5rem;
+    }
+    .gallery-header {
+      max-width: 1200px; margin: 0 auto 3rem;
+      display: flex; justify-content: space-between; align-items: flex-end;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: auto;
+      gap: 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gal-item {
+      overflow: hidden; border-radius: 12px;
+      cursor: pointer; position: relative;
+    }
+    .gal-item img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.5s;
+    }
+    .gal-item:hover img { transform: scale(1.07); }
+    .gal-item::after {
+      content: '⊕';
+      position: absolute; inset: 0;
+      background: rgba(10,124,138,0.4);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2rem; color: var(--white);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .gal-item:hover::after { opacity: 1; }
+    .gal-1 { grid-column: span 5; grid-row: span 2; min-height: 340px; }
+    .gal-2 { grid-column: span 4; min-height: 165px; }
+    .gal-3 { grid-column: span 3; min-height: 165px; }
+    .gal-4 { grid-column: span 4; min-height: 165px; }
+    .gal-5 { grid-column: span 3; min-height: 165px; }
+    .gal-6 { grid-column: span 4; min-height: 180px; }
+    .gal-7 { grid-column: span 8; min-height: 180px; }
+
+    /* ── TESTIMONIALS ── */
+    #reviews {
+      background: linear-gradient(135deg, var(--ocean-mid), var(--ocean-deep));
+      position: relative;
+    }
+    .reviews-inner { max-width: 1200px; margin: 0 auto; }
+    .reviews-header { text-align: center; margin-bottom: 3.5rem; }
+    .reviews-header .section-desc { margin: 0 auto; }
+    .reviews-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .review-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(17,197,204,0.1);
+      border-radius: 18px;
+      padding: 2rem;
+      transition: border-color 0.3s;
+    }
+    .review-card:hover { border-color: rgba(17,197,204,0.3); }
+    .review-stars {
+      color: var(--gold);
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+    .review-text {
+      font-family: var(--font-italic);
+      font-size: 1.05rem;
+      color: rgba(245,234,216,0.85);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .review-avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid rgba(17,197,204,0.3);
+    }
+    .review-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .review-name { font-size: 0.9rem; font-weight: 500; color: var(--white); }
+    .review-loc { font-size: 0.75rem; color: var(--text-muted); }
+
+    /* ── CONTACT ── */
+    #contact {
+      background: var(--ocean-deep);
+      position: relative;
+      overflow: hidden;
+    }
+    #contact::before {
+      content: '';
+      position: absolute; bottom: -300px; left: -200px;
+      width: 700px; height: 700px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(10,124,138,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .contact-inner {
+      max-width: 1100px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 5rem; align-items: start;
+    }
+    .contact-info { padding-top: 1rem; }
+    .contact-items { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
+    .contact-item { display: flex; gap: 1rem; align-items: flex-start; }
+    .contact-icon {
+      width: 46px; height: 46px; flex-shrink: 0;
+      background: rgba(17,197,204,0.12);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      border: 1px solid rgba(17,197,204,0.2);
+    }
+    .contact-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 4px; }
+    .contact-val { font-size: 0.95rem; color: var(--white); }
+    .contact-form {
+      background: rgba(4,36,61,0.6);
+      border: 1px solid rgba(17,197,204,0.12);
+      border-radius: 20px;
+      padding: 2.5rem;
+    }
+    .form-title { font-family: var(--font-display); font-size: 1.6rem; color: var(--white); margin-bottom: 1.8rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.2rem; }
+    .form-group label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(17,197,204,0.15);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      color: var(--white);
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { color: rgba(139,163,181,0.5); }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--ocean-bright);
+      background: rgba(17,197,204,0.06);
+    }
+    .form-group select option { background: var(--ocean-mid); }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .btn-submit {
+      width: 100%;
+      background: linear-gradient(135deg, var(--coral), var(--coral-light));
+      color: var(--white);
+      border: none;
+      padding: 1.1rem;
+      border-radius: 12px;
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: all 0.3s;
+      box-shadow: 0 6px 25px rgba(255,107,74,0.35);
+    }
+    .btn-submit:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(255,107,74,0.5); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: linear-gradient(180deg, var(--ocean-mid) 0%, #010a12 100%);
+      padding: 5rem 5% 2rem;
+      border-top: 1px solid rgba(17,197,204,0.1);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.8fr 1fr 1fr 1.2fr;
+      gap: 3rem;
+      max-width: 1200px; margin: 0 auto 4rem;
+    }
+    .footer-brand p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin: 1.2rem 0 1.8rem;
+      max-width: 280px;
+    }
+    .footer-socials { display: flex; gap: 10px; }
+    .social-btn {
+      width: 38px; height: 38px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(17,197,204,0.15);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: all 0.25s;
+    }
+    .social-btn:hover { background: rgba(17,197,204,0.15); border-color: var(--ocean-bright); color: var(--ocean-bright); }
+    .footer-col h4 {
+      font-size: 0.75rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--ocean-bright);
+      margin-bottom: 1.3rem;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-col ul li a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      transition: color 0.2s;
+    }
+    .footer-col ul li a:hover { color: var(--white); }
+    .footer-newsletter p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.2rem; }
+    .newsletter-form { display: flex; gap: 8px; }
+    .newsletter-form input {
+      flex: 1;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(17,197,204,0.15);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--white);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      outline: none;
+    }
+    .newsletter-form input::placeholder { color: rgba(139,163,181,0.5); }
+    .newsletter-form input:focus { border-color: var(--ocean-bright); }
+    .newsletter-form button {
+      background: linear-gradient(135deg, var(--ocean-teal), var(--ocean-bright));
+      border: none;
+      border-radius: 8px;
+      padding: 0.75rem 1.1rem;
+      color: var(--white);
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: opacity 0.2s;
+    }
+    .newsletter-form button:hover { opacity: 0.85; }
+    .footer-bottom {
+      max-width: 1200px; margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 2rem;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .footer-bottom p { font-size: 0.8rem; color: var(--text-muted); }
+    .footer-bottom a { color: var(--ocean-bright); text-decoration: none; }
+
+    /* ── FLOATING WA BUTTON ── */
+    .float-wa {
+      position: fixed; bottom: 2rem; right: 2rem;
+      z-index: 999;
+      width: 56px; height: 56px;
+      background: #25d366;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 30px rgba(37,211,102,0.5);
+      text-decoration: none;
+      animation: pulse-wa 2.5s infinite;
+      transition: transform 0.2s;
+    }
+    .float-wa:hover { transform: scale(1.1); }
+    @keyframes pulse-wa {
+      0%, 100% { box-shadow: 0 6px 30px rgba(37,211,102,0.5); }
+      50%       { box-shadow: 0 6px 50px rgba(37,211,102,0.7); }
+    }
+    .float-wa svg { width: 28px; height: 28px; fill: #fff; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-images { height: 320px; }
+      .why-inner { grid-template-columns: 1fr; }
+      .contact-inner { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+      .gal-1, .gal-2, .gal-3, .gal-4, .gal-5, .gal-6, .gal-7 {
+        grid-column: span 6; min-height: 160px;
+      }
+    }
+    @media (max-width: 600px) {
+      .about-grid { gap: 2rem; }
+      .about-features { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .hero-stats { display: none; }
+      .gal-1, .gal-2, .gal-3, .gal-4, .gal-5, .gal-6, .gal-7 {
+        grid-column: span 12;
+      }
+      section { padding: 5rem 1.2rem; }
+      nav { padding: 1rem 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════ NAVIGATION ══════════════ -->
+<nav id="navbar" aria-label="Main navigation">
+  <a href="#hero" class="nav-logo" aria-label="Rajalaut Bunaken Home">
+    <div class="nav-logo-icon">🐠</div>
+    <div class="nav-logo-text">
+      Rajalaut
+      <span class="nav-logo-sub">Bunaken</span>
+    </div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Book Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Open menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<header id="hero" role="banner">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-bubbles" aria-hidden="true" id="bubbles"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow">Bunaken National Marine Park · North Sulawesi</p>
+    <h1 class="hero-title">
+      Dive Into
+      <span>Paradise</span>
+    </h1>
+    <p class="hero-sub">Experience the world's finest walls, reefs &amp; marine biodiversity with Rajalaut Bunaken — your expert guide to underwater Indonesia.</p>
+    <div class="hero-actions">
+      <a href="#packages" class="btn-primary">
+        🤿 Explore Packages
+      </a>
+      <a href="#about" class="btn-ghost">
+        ▶ Watch Our Story
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Company statistics">
+    <div class="stat-item">
+      <div class="stat-num">15+</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">3,200+</div>
+      <div class="stat-label">Happy Divers</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">25+</div>
+      <div class="stat-label">Dive Sites</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">4.9★</div>
+      <div class="stat-label">Average Rating</div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about" aria-labelledby="about-title">
+  <div class="about-grid">
+    <div class="about-images">
+      <div class="about-img about-img-1">
+        <img src="https://images.unsplash.com/photo-1583416750470-965b2707b355?w=700&auto=format&fit=crop&q=80" alt="Diver exploring Bunaken coral wall" loading="lazy" />
+      </div>
+      <div class="about-img about-img-2">
+        <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&auto=format&fit=crop&q=80" alt="Colorful tropical fish at Bunaken reef" loading="lazy" />
+      </div>
+      <div class="about-badge" aria-label="15 years of expertise">
+        <div class="about-badge-num">15+</div>
+        <div class="about-badge-txt">Years of<br>Expertise</div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="section-tag">About Rajalaut Bunaken</p>
+      <h2 class="section-title" id="about-title">
+        Born From the Sea,<br>
+        <em>Guided by Passion</em>
+      </h2>
+      <p class="section-desc">
+        Rajalaut Bunaken is a locally-owned dive and tour operator rooted in the stunning waters of Bunaken National Marine Park — one of the world's richest marine biodiversity hotspots. We craft unforgettable experiences for every level of diver and traveler.
+      </p>
+      <p class="section-desc" style="margin-top:1rem">
+        From adrenaline-fueled wall dives and encounters with turtles and napoleon wrasse, to serene island-hopping and cultural village tours — we bring the real Bunaken to life.
+      </p>
+
+      <div class="about-features">
+        <div class="about-feat">
+          <div class="feat-icon">🏅</div>
+          <div class="feat-title">PADI Certified</div>
+          <div class="feat-desc">All instructors are internationally certified with safety-first protocols.</div>
+        </div>
+        <div class="about-feat">
+          <div class="feat-icon">🌊</div>
+          <div class="feat-title">Local Expertise</div>
+          <div class="feat-desc">Born & raised on Bunaken — we know every reef, current & creature.</div>
+        </div>
+        <div class="about-feat">
+          <div class="feat-icon">🐢</div>
+          <div class="feat-title">Eco-Conscious</div>
+          <div class="feat-desc">We protect the reef through responsible tourism and coral restoration.</div>
+        </div>
+        <div class="about-feat">
+          <div class="feat-icon">🛟</div>
+          <div class="feat-title">Safety First</div>
+          <div class="feat-desc">Modern equipment, O2 kits onboard, and strict depth protocols.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PACKAGES ══════════════ -->
+<section id="packages" aria-labelledby="packages-title">
+  <div class="packages-header">
+    <div>
+      <p class="section-tag">Tour Packages</p>
+      <h2 class="section-title" id="packages-title">Find Your<br><em>Perfect Adventure</em></h2>
+    </div>
+    <p class="section-desc">From day trips to multi-day dive expeditions, every package is fully customizable.</p>
+  </div>
+
+  <div class="packages-grid">
+    <!-- Package 1 -->
+    <article class="pkg-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1682687221073-53ad74c2cad7?w=700&auto=format&fit=crop&q=80" alt="Snorkeling tour Bunaken" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">Day Trip</p>
+        <h3 class="pkg-name" itemprop="name">Bunaken Snorkel Explorer</h3>
+        <p class="pkg-desc" itemprop="description">Perfect for beginners and families. Float above vibrant coral gardens and swim alongside sea turtles and reef fish in crystal-clear waters.</p>
+        <ul class="pkg-highlights">
+          <li>3 snorkeling spots around Bunaken Island</li>
+          <li>Full snorkel gear provided</li>
+          <li>Boat, guide & safety equipment</li>
+          <li>Lunch &amp; refreshments included</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>45<span>/person</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Package 2 — Featured -->
+    <article class="pkg-card featured" itemscope itemtype="https://schema.org/TouristTrip">
+      <span class="pkg-badge">Most Popular</span>
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1580019542155-247062e19ce4?w=700&auto=format&fit=crop&q=80" alt="Scuba diving Bunaken wall" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">3-Day Package</p>
+        <h3 class="pkg-name" itemprop="name">Wall Diver Classic</h3>
+        <p class="pkg-desc" itemprop="description">Dive Bunaken's legendary vertical walls dropping to 200m+. Encounter turtles, sharks, napoleon wrasse, and a riot of soft corals. Three days of pure diving bliss.</p>
+        <ul class="pkg-highlights">
+          <li>6 guided dives at top wall sites</li>
+          <li>Overnight stay at Bunaken lodge</li>
+          <li>Full dive equipment rental</li>
+          <li>All meals, transfers &amp; park fees</li>
+          <li>Underwater photos included</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>320<span>/person</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Package 3 -->
+    <article class="pkg-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1602615576820-ea14cd50a611?w=700&auto=format&fit=crop&q=80" alt="Island hopping North Sulawesi" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">5-Day Tour</p>
+        <h3 class="pkg-name" itemprop="name">North Sulawesi Explorer</h3>
+        <p class="pkg-desc" itemprop="description">Go beyond the reef. Combine world-class diving with Manado city culture, volcanic hot springs, jungle trekking, and traditional Minahasan villages.</p>
+        <ul class="pkg-highlights">
+          <li>8 dives + 3 land excursions</li>
+          <li>Manado city tour &amp; Tomohon market</li>
+          <li>Tangkoko wildlife reserve visit</li>
+          <li>All accommodation &amp; transport</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>680<span>/person</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Package 4 -->
+    <article class="pkg-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=700&auto=format&fit=crop&q=80" alt="Scuba dive course Bunaken" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">Learn to Dive</p>
+        <h3 class="pkg-name" itemprop="name">PADI Open Water Course</h3>
+        <p class="pkg-desc" itemprop="description">Become a certified diver in one of the most beautiful places on Earth. Our patient, experienced instructors will have you confidently exploring Bunaken's reefs.</p>
+        <ul class="pkg-highlights">
+          <li>PADI Open Water certification</li>
+          <li>Theory + pool + 4 open water dives</li>
+          <li>Small groups (max 4 students)</li>
+          <li>Includes certification card &amp; materials</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>380<span>/person</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Package 5 -->
+    <article class="pkg-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700&auto=format&fit=crop&q=80" alt="Private island tour Bunaken beach" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">Private Charter</p>
+        <h3 class="pkg-name" itemprop="name">Sunset Island Cruise</h3>
+        <p class="pkg-desc" itemprop="description">Exclusive private boat charter for couples or small groups. Cruise the emerald islands, swim in hidden bays, and watch the sun set over Mount Manado Tua.</p>
+        <ul class="pkg-highlights">
+          <li>6-hour private boat charter</li>
+          <li>Snorkeling &amp; island stops</li>
+          <li>Sunset BBQ on the boat</li>
+          <li>Photographer available</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>220<span>/group</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Package 6 -->
+    <article class="pkg-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="pkg-img">
+        <img src="https://images.unsplash.com/photo-1659942694766-9c9c4c87f4a0?w=700&auto=format&fit=crop&q=80" alt="Liveaboard diving Indonesia" loading="lazy" itemprop="image" />
+      </div>
+      <div class="pkg-body">
+        <p class="pkg-category">7-Day Liveaboard</p>
+        <h3 class="pkg-name" itemprop="name">Coral Triangle Odyssey</h3>
+        <p class="pkg-desc" itemprop="description">Our flagship liveaboard trip exploring Bunaken, the Bangka Islands, and Lembeh Strait — a world-renowned muck-diving paradise in a single epic week.</p>
+        <ul class="pkg-highlights">
+          <li>18–20 dives over 7 days</li>
+          <li>Bunaken + Bangka + Lembeh</li>
+          <li>All meals &amp; cabin accommodation</li>
+          <li>Nitrox available free of charge</li>
+        </ul>
+        <div class="pkg-footer">
+          <div>
+            <div class="pkg-price-from">From</div>
+            <div class="pkg-price"><sup>$</sup>1,250<span>/person</span></div>
+          </div>
+          <a href="#contact" class="btn-book">Book Now →</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ══════════════ WHY US ══════════════ -->
+<section id="why" aria-labelledby="why-title">
+  <div class="why-inner">
+    <div>
+      <p class="section-tag">Why Choose Us</p>
+      <h2 class="section-title" id="why-title">The Rajalaut<br><em>Difference</em></h2>
+      <p class="section-desc">We don't just show you Bunaken — we connect you to it. Every guide, every boat, every dive site is chosen with care for an experience that lasts a lifetime.</p>
+      <br/>
+      <a href="#contact" class="btn-primary" style="display:inline-flex">Plan My Trip →</a>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🤿</div>
+        <div class="why-title">Expert Dive Masters</div>
+        <div class="why-text">Over 10,000 logged dives combined. Our PADI-certified guides know every macro critter and secret site in the park.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚓</div>
+        <div class="why-title">Premium Boats</div>
+        <div class="why-text">Modern, well-maintained dive boats with GPS, VHF radio, first-aid kits, and oxygen onboard at all times.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🌿</div>
+        <div class="why-title">Reef-Safe Practices</div>
+        <div class="why-text">We use biodegradable sunscreen, reef hooks, and support the Bunaken National Park conservation fund.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🍽️</div>
+        <div class="why-title">Authentic Cuisine</div>
+        <div class="why-text">Enjoy fresh local seafood, traditional Minahasan dishes, and tropical fruits prepared by our local kitchen team.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📸</div>
+        <div class="why-title">UW Photography</div>
+        <div class="why-text">Bring your memories home with our optional underwater photography and videography service.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💬</div>
+        <div class="why-title">Multilingual Guides</div>
+        <div class="why-text">Our team speaks English, Indonesian, Mandarin, and Dutch — no language barrier to your adventure.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ GALLERY ══════════════ -->
+<section id="gallery" aria-labelledby="gallery-title">
+  <div class="gallery-header">
+    <div>
+      <p class="section-tag">Photo Gallery</p>
+      <h2 class="section-title" id="gallery-title">Life <em>Underwater</em></h2>
+    </div>
+    <a href="#contact" class="btn-ghost">View All →</a>
+  </div>
+
+  <div class="gallery-grid" role="list">
+    <div class="gal-item gal-1" role="listitem">
+      <img src="https://images.unsplash.com/photo-1583416750470-965b2707b355?w=800&auto=format&fit=crop&q=80" alt="Diver at Bunaken coral wall with fan corals" loading="lazy" />
+    </div>
+    <div class="gal-item gal-2" role="listitem">
+      <img src="https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&auto=format&fit=crop&q=80" alt="Colorful reef fish at Bunaken" loading="lazy" />
+    </div>
+    <div class="gal-item gal-3" role="listitem">
+      <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&auto=format&fit=crop&q=80" alt="Sea turtle swimming at Bunaken" loading="lazy" />
+    </div>
+    <div class="gal-item gal-4" role="listitem">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format&fit=crop&q=80" alt="Bunaken Island beach and palm trees" loading="lazy" />
+    </div>
+    <div class="gal-item gal-5" role="listitem">
+      <img src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?w=600&auto=format&fit=crop&q=80" alt="Underwater coral garden Bunaken" loading="lazy" />
+    </div>
+    <div class="gal-item gal-6" role="listitem">
+      <img src="https://images.unsplash.com/photo-1602615576820-ea14cd50a611?w=600&auto=format&fit=crop&q=80" alt="Sunset view from Bunaken Island" loading="lazy" />
+    </div>
+    <div class="gal-item gal-7" role="listitem">
+      <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&auto=format&fit=crop&q=80" alt="Diver examining tropical fish Bunaken reef" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ REVIEWS ══════════════ -->
+<section id="reviews" aria-labelledby="reviews-title">
+  <div class="reviews-inner">
+    <div class="reviews-header">
+      <p class="section-tag">Guest Reviews</p>
+      <h2 class="section-title" id="reviews-title">What Our <em>Guests Say</em></h2>
+      <p class="section-desc">Thousands of divers and travelers have trusted Rajalaut Bunaken. Here's what they experienced.</p>
+    </div>
+    <div class="reviews-grid">
+      <article class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p class="review-text" itemprop="reviewBody">"Honestly the best diving experience of my life. The walls at Bunaken are like nothing else — and the Rajalaut team made every dive feel safe, exciting and personal. Booked again for next year!"</p>
+        <div class="review-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="review-avatar"><img src="https://i.pravatar.cc/80?img=11" alt="Sarah M." loading="lazy" /></div>
+          <div>
+            <div class="review-name" itemprop="name">Sarah Mitchell</div>
+            <div class="review-loc">🇦🇺 Melbourne, Australia</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p class="review-text" itemprop="reviewBody">"Took the 5-day North Sulawesi Explorer package with my wife. We dived, hiked, ate incredible food and visited a traditional village. Rajalaut organized everything flawlessly. Truly 5-star service!"</p>
+        <div class="review-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="review-avatar"><img src="https://i.pravatar.cc/80?img=52" alt="Thomas K." loading="lazy" /></div>
+          <div>
+            <div class="review-name" itemprop="name">Thomas König</div>
+            <div class="review-loc">🇩🇪 Munich, Germany</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="review-card" itemscope itemtype="https://schema.org/Review">
+        <div class="review-stars" aria-label="5 stars">★★★★★</div>
+        <p class="review-text" itemprop="reviewBody">"I did my PADI Open Water here and couldn't have asked for a better place to learn. The instructor was incredibly patient, the visibility was 20m+, and I saw a turtle on my first open water dive!"</p>
+        <div class="review-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <div class="review-avatar"><img src="https://i.pravatar.cc/80?img=47" alt="Priya S." loading="lazy" /></div>
+          <div>
+            <div class="review-name" itemprop="name">Priya Sharma</div>
+            <div class="review-loc">🇸🇬 Singapore</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CONTACT / BOOKING ══════════════ -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="contact-inner">
+    <div class="contact-info">
+      <p class="section-tag">Contact & Booking</p>
+      <h2 class="section-title" id="contact-title">Let's Plan<br><em>Your Dive</em></h2>
+      <p class="section-desc">Ready to dive into Bunaken? Get in touch and we'll craft the perfect itinerary just for you.</p>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-val">Bunaken Island, North Sulawesi, Indonesia</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-label">Phone / WhatsApp</div>
+            <div class="contact-val">+62 812 3456 7890</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-val">hello@rajalaut-bunaken.com</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <div class="contact-label">Office Hours</div>
+            <div class="contact-val">Daily 07:00 – 20:00 (WITA)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form" role="form" aria-label="Booking inquiry form">
+      <h3 class="form-title">Request a Booking</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="John" required autocomplete="given-name" />
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Doe" required autocomplete="family-name" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email" />
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="package">Package</label>
+          <select id="package" name="package">
+            <option value="">Choose a package…</option>
+            <option>Bunaken Snorkel Explorer</option>
+            <option>Wall Diver Classic (3 Days)</option>
+            <option>North Sulawesi Explorer (5 Days)</option>
+            <option>PADI Open Water Course</option>
+            <option>Sunset Island Cruise</option>
+            <option>Coral Triangle Odyssey (7 Days)</option>
+            <option>Custom / Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="guests">No. of Guests</label>
+          <input type="number" id="guests" name="guests" placeholder="2" min="1" max="20" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="date" />
+      </div>
+      <div class="form-group">
+        <label for="message">Additional Info / Questions</label>
+        <textarea id="message" name="message" placeholder="Tell us about your experience level, special requests…"></textarea>
+      </div>
+      <button type="button" class="btn-submit" onclick="handleSubmit()">
+        🤿 Send Booking Request
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#hero" class="nav-logo" style="text-decoration:none">
+        <div class="nav-logo-icon">🐠</div>
+        <div class="nav-logo-text">Rajalaut <span class="nav-logo-sub" style="color:var(--ocean-bright)">Bunaken</span></div>
+      </a>
+      <p>Your gateway to the underwater wonders of Bunaken National Marine Park, North Sulawesi, Indonesia. Locally owned, globally loved.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+        <a href="#" class="social-btn" aria-label="Facebook">f</a>
+        <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+        <a href="https://wa.me/6281234567890" class="social-btn" aria-label="WhatsApp">💬</a>
+        <a href="#" class="social-btn" aria-label="TikTok">♪</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#packages">Dive Packages</a></li>
+        <li><a href="#packages">Island Tours</a></li>
+        <li><a href="#packages">PADI Courses</a></li>
+        <li><a href="#gallery">Photo Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Information</h4>
+      <ul>
+        <li><a href="#">How to Get Here</a></li>
+        <li><a href="#">Dive Sites Map</a></li>
+        <li><a href="#">Equipment Guide</a></li>
+        <li><a href="#">Travel Insurance</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Get dive tips, seasonal offers, and Bunaken news delivered monthly.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="your@email.com" aria-label="Email for newsletter" />
+        <button type="button" aria-label="Subscribe">→</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Rajalaut Bunaken. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms</a></p>
+    <p>🌊 Proudly protecting Bunaken's reefs since 2009</p>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/6281234567890?text=Hello%20Rajalaut%20Bunaken!%20I'm%20interested%20in%20a%20tour%20package."
+   class="float-wa" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script>
+  // Nav scroll effect
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  // Bubble generator
+  const container = document.getElementById('bubbles');
+  for (let i = 0; i < 18; i++) {
+    const b = document.createElement('div');
+    b.classList.add('bubble');
+    const size = Math.random() * 30 + 8;
+    b.style.cssText = `
+      width:${size}px; height:${size}px;
+      left:${Math.random()*100}%;
+      animation-duration:${Math.random()*12+8}s;
+      animation-delay:${Math.random()*10}s;
+    `;
+    container.appendChild(b);
+  }
+
+  // Form handler
+  function handleSubmit() {
+    const fname = document.getElementById('fname').value.trim();
+    const email = document.getElementById('email').value.trim();
+    if (!fname || !email) {
+      alert('Please fill in your name and email to send a request.');
+      return;
+    }
+    alert(`🌊 Thank you, ${fname}! Your booking request has been received. We'll contact you at ${email} within 24 hours.\n\nFor faster response, WhatsApp us at +62 812 3456 7890.`);
+  }
+
+  // Smooth reveal on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.pkg-card, .why-card, .review-card, .about-feat').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
